@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    position: relative;
+}
+
+#post1{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+}
+
+#like{
+    height:50px;
+    /* border: 2px solid white; */
+    width: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+#bookmark{
+    height: fit-content;
+    width: 100px;
+    padding: 5px;
+}
+
+#b-mrk{
+    display: flex;
+    justify-content: end;
+}
+
+#cmmence{
+    position: absolute;
+    top: 108%;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+#like-count{
+    width: 100%;
+    min-height: 50px;
+    background-color: black;
+    position: absolute;
+    top: 55%;
+    /* display: none; */
+    transition: all ease-in;
+    padding: 5px;
+    /* border: 2px solid white; */
+    color: white;
+}
+
+#post1 img{
+    height: 100%;
+    width: 100%;
+}
+
+#upper{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+
+#profile{
+    height: fit-content;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+}
+
+#dots{
+    padding: 10px;    
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+#photo{
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+#photo img{
+    height: 100%;
+    width: 100%;
+    border-radius:50% ;
+}
+#username{
+    margin-top: 10px;
+    margin-left: -5px;
+    font-size: large;
+}
+
+#comment{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(208, 117, 117);
+    margin-top: 40%;
+    border: 2px solid black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    display: none;
+}
+
+#text{
+    width: 100%;
+    border: 2px solid black;
+    height: 100px;
+    margin-top: 20%;
+    top: 50%;
+    padding: 5px;
+    margin-bottom: -15%;
+    font-size: 15px;
+    transform: translate(0,-50%);
+}
+
+
+#postnow{
+    height: 50px;
+    width: 50%;
+    top: 70%;
+    font-size: 20px;
+    background-color: darkgray;
+    cursor: pointer;
+}
